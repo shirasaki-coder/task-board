@@ -1,13 +1,13 @@
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #e5e5e5;
-  --border: #e0e0e5;
+  --text: #6b7280;
+  --text-h: #111827;
+  --bg: #eef0f4;
+  --border: #e5e7eb;
   --card-bg: #fff;
-  --done-bg: #eceef1;
-  --accent: #3b6fed;
-  --accent-hover: #2f5fd6;
-  --danger: #e5484d;
+  --done-bg: #eef0f3;
+  --accent: #3b82f6;
+  --accent-hover: #2f6fe0;
+  --danger: #ef4444;
 
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
 
