@@ -12,7 +12,7 @@
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
 
   font: 18px/145% var(--sans);
-  color-scheme: light dark;
+  color-scheme: light;
   color: var(--text);
   background: var(--bg);
   font-synthesis: none;
@@ -22,20 +22,6 @@
 
   @media (max-width: 1024px) {
     font-size: 16px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #3a3a3d;
-    --border: #4a4a4d;
-    --card-bg: #26262a;
-    --done-bg: #1f1f23;
-    --accent: #5b8bf5;
-    --accent-hover: #6f99f7;
-    --danger: #f16368;
   }
 }
 
