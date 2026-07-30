@@ -23,3 +23,9 @@
 - `npm run dev` — 開発サーバー起動
 - `npm run build` — 本番ビルド
 - `npm run lint` — oxlint による静的解析
+
+## デプロイ
+
+- GitHub Pages（プロジェクトページ）で公開。`master` に push すると `.github/workflows/deploy.yml` が自動でビルド・デプロイする。
+- 公開URL: `https://shirasaki-coder.github.io/task-board/`
+- `vite.config.js` の `base` はビルド時のみ `/task-board/` を使用（開発サーバーには影響しない）。
